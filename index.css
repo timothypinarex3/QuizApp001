@@ -26,6 +26,21 @@ a {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
 }
+@media only screen and (max-width: 500px) {
+a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Lemonada', cursive;
+    font-size: 1em;
+    position: fixed;  
+    top: 0; 
+    margin: 15px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
+}
+}
+
 
 a:hover {
     text-decoration: none;
@@ -68,19 +83,32 @@ ul {
     width: 50%;
     padding: 20px;
     text-align: center;
+    font-size: 1.5em;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: 'Bangers', cursive;
+    color: red;
+    border-radius: 25px;
+}
+
+@media only screen and (min-width: 500px) {
+    .startBox {
+    width: 50%;
+    padding: 20px;
+    text-align: center;
     font-size: 2.75em;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.7);
     font-family: 'Bangers', cursive;
     color: red;
     border-radius: 25px;
-    
+    }
 }
+
 .startBox:hover {
     width: 50%;
     padding: 20px;
     text-align: center;
-    font-size: 2.75em;
     margin: auto;
     background-color: rgba(104, 104, 104, 0.7);
     font-family: 'Bangers', cursive;
@@ -102,6 +130,23 @@ ul {
     font-family: 'Lemonada', cursive;
     border-radius: 25px
 }
+@media only screen and (max-width: 500px) {
+.startButton, .submitAnswer, .nextButton, .restartQuiz {
+    background-color: rgb(32, 32, 32);
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+    margin: 20px;
+    font-family: 'Lemonada', cursive;
+    border-radius: 25px
+}
+}
+
+
 
 .startButton:hover, .submitAnswer:hover, .nextButton:hover, .restartQuiz:hover {
     background-color: rgb(126, 126, 126);
@@ -117,23 +162,24 @@ main {
 }
 .questionBox {
     box-sizing: border-box;
-    display: none;
+    display:none;
+    text-align: center;
     border: 1px solid black;
-    width: 90%;
+    width: 70%;
     font-size: 1em;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
-    margin-bottom: 200px;
+    margin: auto;
     font-family: 'Lemonada', cursive;
     border-radius: 25px
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
     .questionBox {
         box-sizing: border-box;
         display: none;
         border: 1px solid black;
-        width: 70%;
+        width: 90%;
         font-size: 1em;
         padding: 30px;
         background-color: rgba(255, 255, 255, 0.7);
