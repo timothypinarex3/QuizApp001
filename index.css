@@ -14,22 +14,32 @@ header {
     height: 150px;
 }
 
+footer {
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+}
+
 a {
     text-decoration: none;
     color:black;
     font-family: 'Lemonada', cursive;
-    font-size: 1.25em; 
-    top: 0; 
-    margin: 15px;
+    font-size: 1.25em;  
+    margin:0 auto;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
-    display: block;
-    text-align: center
-   
+}
+a:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgba(104, 104, 104, 0.7);
 }
 @media only screen and (max-width: 500px) {
 a {
+    box-sizing: border-box;
     text-decoration: none;
     color:black;
     font-family: 'Lemonada', cursive;
@@ -42,42 +52,21 @@ a {
 }
 }
 
-
-a:hover {
-    text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-family: 'Lemonada', cursive;
-    font-size: 1.em; 
-    top: 0; 
-    margin: 15px;
-    padding: 10px;
-    background-color: rgba(104, 104, 104, 0.7);
-    border-radius: 25px;
-}
-
-
-
 ul {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 25px;
     list-style-type: none;
     position: relative;
-    padding: px;
     float:right;
+    text-align: center;
 }
 
-#question { 
+#question, #score { 
     font-family: 'Lemonada', cursive;
     font-size: 1em;
-    font-weight: 800;
-    display: block;
+    text-align: center;
 }
 
-#score { 
-    font-family: 'Lemonada', cursive;
-    font-size: 1em;
-    font-weight: 800;
-    display: block;
-
-}
 
 .startBox {
     width: 50%;
@@ -89,6 +78,10 @@ ul {
     font-family: 'Bangers', cursive;
     color: red;
     border-radius: 25px;
+}
+
+.startBox:hover {
+    background-color: rgba(104, 104, 104, 0.7);  
 }
 
 @media only screen and (min-width: 500px) {
@@ -104,18 +97,6 @@ ul {
     border-radius: 25px;
     }
 }
-
-.startBox:hover {
-    width: 50%;
-    padding: 20px;
-    text-align: center;
-    margin: auto;
-    background-color: rgba(104, 104, 104, 0.7);
-    font-family: 'Bangers', cursive;
-    color: red
-    
-}
-
 
 .startButton, .submitAnswer, .nextButton, .restartQuiz {
     background-color: rgb(32, 32, 32);
@@ -135,7 +116,7 @@ ul {
     background-color: rgb(32, 32, 32);
     border: none;
     color: white;
-    padding: 10px 27px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline;
@@ -146,15 +127,10 @@ ul {
 }
 }
 
-
-
 .startButton:hover, .submitAnswer:hover, .nextButton:hover, .restartQuiz:hover {
     background-color: rgb(126, 126, 126);
     color: white;
     cursor: pointer;
-    font-family: 'Lemonada', cursive;
-    font-size: 19px;
-    border-radius: 25px
 }
 
 main {
@@ -164,7 +140,6 @@ main {
     box-sizing: border-box;
     display:none;
     text-align: center;
-    border: 1px solid black;
     width: 70%;
     font-size: 1em;
     background-color: rgba(255, 255, 255, 0.7);
@@ -178,10 +153,9 @@ main {
     .questionBox {
         box-sizing: border-box;
         display: none;
-        border: 1px solid black;
         width: 90%;
         font-size: 1em;
-        padding: 30px;
+        padding: 5px;
         background-color: rgba(255, 255, 255, 0.7);
         margin: auto;
         margin-bottom: 40px;
@@ -190,14 +164,13 @@ main {
 }
 
 label {
-    border: 1px solid black;
     display: block;
     margin-bottom: 25px;
     border-radius: 25px;
 }
 
 label:hover {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(128, 128, 128);
     color: white;
     cursor: pointer;
 }
