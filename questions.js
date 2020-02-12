@@ -1,112 +1,58 @@
 const QUESTIONS = [
     {
-        question: "Which team (that had the best record in the NBA) did the 'We Believe' 2006-07 Warriors squad beat in the first round of the playoffs that year?",
+        question: "-How long has michael been in the office?",
         choices: [
-            'Los Angeles Lakers',
-            'Dallas Mavericks',
-            'San Antonio Spurs',
-            'Houston Rockets'
+            '5 years',
+            '9,986,000 minutes',
+            '3,560,400 minutes',
+            '6,000,540 minutes'
         ],
         correctAnswer: 1,
-        explanation: 'The Warriors pulled off the upset 4 games to 2 against the Dallas Mavericks.'
+        explanation: 'Michael has been at Dunder Mifflin 9,986,000 minutes, which means that he has been working there since May 6, 1992. '
     },
     {
-        question: "What year did the Warriors win their first NBA championship after moving to Golden State?",
+        question: "-Which cat did Dwight mercy kill?",
         choices: [
-            '1975',
-            '1986',
-            '1969',
-            '1982'
-        ],
-        correctAnswer: 0,
-        explanation: 'The Warriors, led by Rick Barry, swept the Washington Bullets on their way to the title in 1975.'
-    },
-    {
-        question: "How many threes did Stephen Curry make when he broke the single season record in 2016?",
-        choices: [
-            '399',
-            '408',
-            '405',
-            '402'
-        ],
-        correctAnswer: 3,
-        explanation: 'Chef Curry averaged an astonishing 5.1 threes per game that season for a total of 402.'
-    },
-    {
-        question: "Which coach has the most all time wins with the franchise?",
-        choices: [
-            'Al Attles',
-            'Steve Kerr',
-            'Don Nelson',
-            'Mark Jackson'
-        ],
-        correctAnswer: 0,
-        explanation: 'Al Attles accumulated 557 wins with the team from 1970 to 1983.'
-    },
-    {
-        question: "Which member of the 2017-18 roster was able to walk at seven months and read by the age of three? ",
-        choices: [
-            'Draymond Green',
-            'Kevon Looney',
-            'Shaun Livingston',
-            'Andre Iguodala'
+            'Monty',
+            'Gizmo',
+            'Sprinkles',
+            'Kimba'
         ],
         correctAnswer: 2,
-        explanation: 'Shaun Livingston was quite the child prodigy.'
+        explanation: 'During the Fun Run, Dwight confesses that he put Sprinkles in the freezer while she was still alive, explaining that he considered it to be an act of mercy to kill an animal rather than let it live with no quality of life.'
     },
     {
-        question: "Which player was suspended by the league for choking head coach PJ Carlesimo?",
+        question: "-Who was Jim Halpert ex girlfriend?",
         choices: [
-            'Chris Webber',
-            'Gilbert Arenas',
-            'Mitch Richmond',
-            'Latrell Sprewell'
-        ],
-        correctAnswer: 3,
-        explanation: 'Latrell Sprewell was later traded to the New York Knicks because of this incident.'
-    },
-    {
-        question: "Which player's jersey has not been retired by the organization?",
-        choices: [
-            'Chris Mullin (17)',
-            'Eric "Sleepy" Floyd (21)',
-            'Tom Meschery (14)',
-            'Nate Thurmond (42)'
-        ],
-        correctAnswer: 1,
-        explanation: 'Although he as a terrific player, Sleepy Floyd\'s jersey was never retired by the team.'
-    },
-    {
-        question: "Which bridge is featured on the Warriors' logo?",
-        choices: [
-            'Golden Gate Bridge',
-            'Bay Bridge',
-            'San Mateo Bridge',
-            'San Rafael Bridge'
-        ],
-        correctAnswer: 1,
-        explanation: 'The Bay Bridge links the Warriors former home, San Francisco, with their present home, Oakland, and was featured on theiy jersey in 1970.'
-    },
-    {
-        question: "Which opposing player threw a trash can at the wall and left a hole near the Warriors' locker room?",
-        choices: [
-            'Dirk Nowitzki',
-            'Kobe Bryant',
-            'Shaquille O\'Neal',
-            'Lebron James'
+            'Karen Filippelli',
+            'Jennifer Smith',
+            'Emily Anderson',
+            'Samantha Smith'
         ],
         correctAnswer: 0,
-        explanation: 'Dirk Nowitzki put this hole in the wall after his favored Mavericks were upset by the Warriors in 2007.'
+        explanation: "Karen Filippelli is a sales representative and co-worker of Jim at the Stamford branch. At first, she doesn't think Jim fits in there and dislikes the way he looks at the camera, but eventually she grows to like him, apparently developing a crush on him. She transfers to the Scranton branch as part of the merger of the Stamford and Scranton branches, and she and Jim begin to date."
     },
     {
-        question: "Who is the only Golden State Warrior to win the slam dunk contest?",
+        question: "-What is Kevin best dish?",
         choices: [
-            'Monta Ellis',
-            'Mickael Pietrus',
-            'Jason Richardson',
-            'Baron Davis'
+            'Steak tacos',
+            'Famous chili',
+            '4 cheese macaroni',
+            'Nachos'
+        ],
+        correctAnswer: 1,
+        explanation: "The delicious dish was made by Kevin Malone and then subsequently dropped on the carpet when he brought it into the workplace"
+    },
+    {
+        question: "-What town is the office located in?",
+        choices: [
+            'Pawnee',
+            'Austin',
+            'Scranton',
+            'Bloomington'
         ],
         correctAnswer: 2,
-        explanation: 'J-Rich won this title back to back in 2002 and 2003.'
-    }
+        explanation: "The Office is an American mockumentary sitcom television series that depicts the everyday lives of office employees in the Scranton, Pennsylvania, branch of the fictional Dunder Mifflin Paper Company"
+    },
+    
 ]
