@@ -18,24 +18,25 @@ a {
     text-decoration: none;
     color:black;
     font-family: 'Lemonada', cursive;
-    font-size: 1.25em;
-    position: fixed;  
+    font-size: 1.25em; 
     top: 0; 
     margin: 15px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
+    display: block;
+    text-align: center
+   
 }
 @media only screen and (max-width: 500px) {
 a {
     text-decoration: none;
     color:black;
     font-family: 'Lemonada', cursive;
-    font-size: 1em;
-    position: fixed;  
+    font-size: 1em;  
     top: 0; 
     margin: 15px;
-    padding: 5px;
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 25px;
 }
@@ -44,10 +45,9 @@ a {
 
 a:hover {
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
     font-family: 'Lemonada', cursive;
-    font-size: 1.4em;
-    position: fixed;  
+    font-size: 1.em; 
     top: 0; 
     margin: 15px;
     padding: 10px;
@@ -60,7 +60,7 @@ a:hover {
 ul {
     list-style-type: none;
     position: relative;
-    padding: 15px;
+    padding: px;
     float:right;
 }
 

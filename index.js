@@ -1,5 +1,5 @@
 let qNumber = 0;
-let score = 0;
+let point = 0;
 
 function generateQuestion() {
     $('.questionBox').html(
@@ -55,8 +55,8 @@ function choseRightAnswer() {
             <button class="nextButton">Next Question</button>
         </div>`
     );
-    score++;
-    $('.scoreNumber').html(`${score}`);
+   point++;
+    $(' pointNumber').html(`$ point}`);
     nextQuestion();
 }
 
@@ -88,7 +88,7 @@ function nextQuestion() {
 function showResults() {
     $('.questionBox').html(`
     <img src="https://img.nbc.com/sites/nbcunbc/files/images/2016/1/19/MDot-TheOffice-640x360-MP.jpg" class="wrong" alt="Prison Mike">
-        <p>You got ${score} correct out of 5!</p>
+        <p>You got ${point} correct out of 5!</p>
         <button class="restartQuiz">Restart Quiz</button>
     `);
     restartQuiz();
@@ -97,9 +97,9 @@ function showResults() {
 function restartQuiz() {
     $('.restartQuiz').on('click', function() {
         qNumber = 0;
-        score = 0;
+       point = 0;
         $('.questionNumber').html(`${qNumber + 1}`);
-        $('.scoreNumber').html(`${score}`);
+        $(' pointNumber').html(`$ point}`);
         generateQuestion();
     });
 }
