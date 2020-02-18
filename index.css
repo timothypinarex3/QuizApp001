@@ -11,23 +11,23 @@ html {
 
 
 header {
-    height: 150px;
+    height: 120px;
 }
 
 footer {
-  display: inline-block;
   text-align: center;
-  margin-top: 20px;
+  margin: 30px;
   position: absolute;
   left: 50%;
   margin-left: -50px;
+  font-size: .75em;
 }
 
 a {
     text-decoration: none;
     color:black;
+    font-size: 1.25em;
     font-family: 'Lemonada', cursive;
-    font-size: 1.25em;  
     margin:0 auto;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -37,18 +37,9 @@ a:hover {
     color:rgb(255, 255, 255);
     background-color: rgba(104, 104, 104, 0.7);
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
 a {
-    box-sizing: border-box;
-    text-decoration: none;
-    color:black;
-    font-family: 'Lemonada', cursive;
-    font-size: 1em;  
-    top: 0; 
-    margin: 15px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 25px;
+    font-size: 1em;
 }
 }
 
@@ -57,24 +48,23 @@ ul {
     border-radius: 25px;
     list-style-type: none;
     position: relative;
+    padding: 5px;
     float:right;
     text-align: center;
+    font-size: .9em;
+    font-family: 'Lemonada', cursive;
 }
 
-#question, #score { 
-    font-family: 'Lemonada', cursive;
-    font-size: 1em;
-    text-align: center;
-}
+
 
 
 .startBox {
     width: 50%;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.5);
     font-family: 'Bangers', cursive;
     color: red;
     border-radius: 25px;
@@ -84,17 +74,10 @@ ul {
     background-color: rgba(104, 104, 104, 0.7);  
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 450px) {
     .startBox {
-    width: 50%;
     padding: 20px;
-    text-align: center;
     font-size: 2.75em;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.7);
-    font-family: 'Bangers', cursive;
-    color: red;
-    border-radius: 25px;
     }
 }
 
@@ -102,28 +85,19 @@ ul {
     background-color: rgb(32, 32, 32);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline;
-    font-size: 18px;
+    font-size: 1em;
     margin: 25px;
     font-family: 'Lemonada', cursive;
     border-radius: 25px
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
 .startButton, .submitAnswer, .nextButton, .restartQuiz {
-    background-color: rgb(32, 32, 32);
-    border: none;
-    color: white;
     padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-size: 14px;
     margin: 20px;
-    font-family: 'Lemonada', cursive;
-    border-radius: 25px
 }
 }
 
@@ -141,7 +115,7 @@ main {
     display:none;
     text-align: center;
     width: 70%;
-    font-size: 1em;
+    font-size: 1.25em;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px;
     margin: auto;
@@ -149,17 +123,12 @@ main {
     border-radius: 25px
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
     .questionBox {
-        box-sizing: border-box;
-        display: none;
         width: 90%;
         font-size: 1em;
         padding: 5px;
-        background-color: rgba(255, 255, 255, 0.7);
-        margin: auto;
         margin-bottom: 40px;
-        font-family: 'Lemonada', cursive;
     }
 }
 

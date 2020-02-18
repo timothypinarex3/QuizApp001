@@ -8,7 +8,7 @@ function generateQuestion() {
                 <fieldset>
                     <legend>${QUESTIONS[qNumber].question}</legend>
                     <label>
-                        <input type="radio" name="office" value=0 required>
+                        <input type="radio" name="office" value=0>
                         ${QUESTIONS[qNumber].choices[0]}
                     </label>
                     <label>
@@ -46,12 +46,10 @@ function formSubmit() {
 }
 
 function choseRightAnswer() {
-    let explanation = QUESTIONS[qNumber].explanation;
     $('.questionBox').html(
         `<div>
             <strong>Correct!<strong>
             <img src="https://img.nbc.com/mpx-static/NBCdotCOM/mezzthumb/ee7dee9d039c2087301abf870c8353e1_ef2fefb2f311c5c7e407dd3215d3cf2c.jpg" class="correct" alt="Happy Jim Halpert">
-            <p>${explanation}</p>
             <button class="nextButton">Next Question</button>
         </div>`
     );
